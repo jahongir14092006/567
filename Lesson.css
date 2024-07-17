@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Spoon {
+    width: 1190px;
+    height: 582px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.Spoon h1 {
+    font-size: 20px;
+}
+
+.Spoon b {
+    font-size: 20px;
+}
+
+.Spoon p {
+    font-weight: 300;
+    line-height: 26px;
+    color: silver;
+}
+
+.Spoon :nth-child(3) {
+    color: silver;
+}
+
+.box {
+    width: 1190px;
+    height: 330px;
+    display: flex;
+    gap: 30px;
+}
+
+.box .text {
+    width: 377px;
+    height: 330px;
+}
+
+.text .p {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.text .b {
+    margin-left: 50px;
+    color: black;
+}
+
+.text img {
+    width: 60px;
+    height: 60px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
